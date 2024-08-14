@@ -1,0 +1,108 @@
+
+.payment-management {
+    padding: 20px;
+  }
+  
+  .sort-controls {
+    margin-bottom: 20px;
+  }
+  
+  .sort-dropdown {
+    padding: 5px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .data-table th {
+    background-color: teal;
+    text-align: left;
+  }
+  
+  .data-table td {
+    text-align: left;
+  }
+  
+  .status-column {
+    text-align: center;
+  }
+  
+  .status-text {
+    font-weight: bold;
+  }
+  
+  .actions-column, .delete-column {
+    text-align: center;
+  }
+  
+  .action-button, .delete-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-button.pending {
+    background-color: green;
+    color: white;
+  }
+  
+  .action-button.completed {
+    background-color: grey;
+    color: white;
+  }
+  
+  .action-button:hover {
+    opacity: 0.8;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    opacity: 0.8;
+  }
+  
+  .payment-counts-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+}
+
+.payment-count-box {
+    background-color: white; 
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 128, 128, 0.5); 
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px; 
+}
+
+.payment-count-box h3 {
+    margin: 0;
+    color:black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.payment-count-box p {
+    font-size: 1.5em;
+    margin: 10px 0 0 0; 
+    color: teal; 
+}
+

@@ -1,0 +1,21 @@
+
+.top-cities {
+    padding: 20px;
+    background-color: white;
+    margin-right: 1%;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .city-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center; 
+  }
+  

@@ -1,0 +1,60 @@
+.staff-page {
+    padding: 2rem;
+  }
+  
+  .staff-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: teal;
+    cursor: pointer;
+    gap:10px;
+  }
+  
+  button:hover {
+    background-color: darkcyan;
+  }
+  
+  .add-form {
+    margin-bottom: 2rem;
+  }
+  
+  .add-form input {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+ table td {
+    border: 0.1rem solid teal;
+    padding: 0.8rem;
+    font-size: 22px;
+  }
+  
+  table th {
+    background-color:teal;
+    font-size: 28px;
+    color: white;
+  }
+  
+.staff-page .removebtn
+{
+  background-color: red;
+  color: white;
+}

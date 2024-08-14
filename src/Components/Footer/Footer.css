@@ -1,0 +1,35 @@
+.footer {
+  background-color: #f0f8ff; /* Snowy blue background */
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer-header {
+  font-weight: bold;
+  background-color: #f0f8ff; /* Snowy blue background */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  margin-right: 8px;
+}
+
+.footer .MuiListItemText-root {
+  color: #555; /* Default color for text */
+}
+
+.footer .MuiListItem-root {
+  padding: 5px 0;
+}
+
+.footer a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.footer a:hover {
+  color: teal; /* Teal color on hover */
+  text-decoration: underline; /* Underline on hover */
+}

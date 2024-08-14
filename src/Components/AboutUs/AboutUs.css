@@ -1,0 +1,86 @@
+/* Container for the entire About Us page */
+.about-container {
+    background: url('D:\sem 5\SDP final\SDP project\tutortracker\src\Components\Assets\reqtutor1blur.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .about-content {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .about-heading {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mission-heading, .why-choose-heading {
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .why-choose-list {
+    list-style-type: disc;
+    padding-left: 24px;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    color: gray;
+  }
+  
+  .why-choose-list li {
+    margin-bottom: 10px;
+  }
+  
+  .about-text, .mission-text, .join-community, .discover-future {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .cta-buttons .MuiButton-root {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .cta-buttons .MuiButton-contained {
+    background-color: teal;
+    color: white;
+  }
+  
+  .cta-buttons .MuiButton-outlined {
+    border-color: teal;
+    color: teal;
+  }
+  
+  .cta-buttons .MuiButton-contained:hover {
+    background-color: darkcyan;
+  }
+  
+  .cta-buttons .MuiButton-outlined:hover {
+    border-color: darkcyan;
+    color: darkcyan;
+  }
+  

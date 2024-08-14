@@ -1,0 +1,84 @@
+
+.become-tutor-management {
+    padding: 20px;
+  }
+  
+  .sort-controls-become {
+    margin-bottom: 20px;
+  }
+  
+  .sort-dropdown-become {
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .data-table-become {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table-become th, .data-table-become td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 20px;
+  }
+  
+  .data-table-become th {
+    background-color: teal;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .data-table-become td {
+    text-align: left;
+  }
+  
+  .tutor-image-become {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .actions-column, .delete-column {
+    text-align: center;
+  }
+  
+  .action-button-become, .delete-button-become {
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-button-become {
+    color: white;
+    padding: 5px 10px;
+  }
+  
+    .confirm-button-tut {
+    background-color: green;
+    padding: 5px 10px;
+  }
+  
+  .decline-button-tut {
+    background-color: grey; 
+    padding: 5px 10px;
+  }
+  
+  .delete-button-become {
+    background-color: #f44336; 
+    padding: 5px 10px;
+  }
+  
+  .action-button-become:hover, .delete-button-become:hover {
+    opacity: 0.8;
+  }
+  
+  .actions-container .remove-selected-button-become
+  {
+    background-color: red;
+  }

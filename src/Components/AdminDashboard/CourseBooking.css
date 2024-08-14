@@ -1,0 +1,140 @@
+
+.course-booking {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.button-cb {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-cb:hover {
+  background-color: white;
+  color: teal;
+  border-color: teal;
+}
+
+.add-booking-form-cb {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.add-booking-form-cb h3 {
+  font-size: 1.5em;
+  color: teal;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.select-cb {
+  width: 100%;
+  padding: 20px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.input-cb {
+  width: 100%;
+  padding: 15px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.table-cb {
+  max-width: 2000px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-cb, .table-cb th, .table-cb td {
+  border: 1px solid #ddd;
+}
+
+.table-cb th, .table-cb td {
+  padding: 20px;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.table-cb th {
+  background-color: teal;
+  font-size: 1.1em;
+  color: white;
+}
+
+.button-cb-del {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-cb-del:hover {
+  background-color: #e53935;
+}
+
+.table-empty {
+  text-align: center;
+  font-size: 1.5em;
+  color: #888;
+}
+
+.booking-count {
+  background-color: white;
+  color: black;
+  width: 300px;
+  height: 100px;
+  border: 1px solid teal; 
+  box-shadow: 0px 4px 8px rgba(0, 128, 128, 0.3); 
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.booking-count h2 {
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  margin-left: 25%;
+}
+
+.booking-count .count {
+  font-size: 18px;
+  color: teal;
+  align-items: center;
+  margin-left: 42%;
+}
+

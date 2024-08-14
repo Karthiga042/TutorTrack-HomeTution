@@ -1,0 +1,68 @@
+
+.feedback-management {
+    padding: 20px;
+  }
+  
+  .sort-controls {
+    margin-bottom: 20px;
+  }
+  
+  .sort-dropdown {
+    padding: 5px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .data-table th {
+    background-color: teal;
+    text-align: left;
+  }
+  
+  .data-table td {
+    text-align: left;
+  }
+  
+  .status-column {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .actions-column, .delete-column {
+    text-align: center;
+  }
+  
+  .action-button, .delete-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-button.read {
+    background-color: green;
+    color: white;
+  }
+  
+  .action-button.unread {
+    background-color: grey;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  .action-button:hover, .delete-button:hover {
+    opacity: 0.8;
+  }
+  

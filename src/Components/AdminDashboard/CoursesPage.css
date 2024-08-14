@@ -1,0 +1,77 @@
+.courses-page {
+    padding: 2rem;
+  }
+  
+  .courses-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    gap:10px;
+  }
+  
+  button:hover {
+    background-color: darkcyan;
+  }
+  
+  .add-form {
+    margin-bottom: 2rem;
+  }
+  
+  .add-form input {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 0.8%;
+  }
+  
+  table th, table td {
+    border: 0.1rem solid #ddd;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  table th {
+    background-color: teal;
+    color: white;
+  }
+  
+  .charts-c {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    gap: 20px; 
+    padding: 10px; 
+  }
+  
+  .chart-container-c {
+    flex: 0 0 auto; 
+    width: 800px;
+    border: 1px solid teal; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 128, 128, 0.3); 
+    background-color: white; 
+    padding: 20px; 
+    margin: 0; 
+    box-sizing: border-box; 
+    margin-left: 20%;
+    margin-bottom: 2%;
+  }

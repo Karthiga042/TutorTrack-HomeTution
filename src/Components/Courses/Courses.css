@@ -1,0 +1,18 @@
+.courses {
+  padding: 20px;
+  background-color: white;
+}
+
+.title h1{
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 30px;
+  justify-items: center;
+}

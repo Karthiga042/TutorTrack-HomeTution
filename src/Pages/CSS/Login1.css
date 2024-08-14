@@ -1,0 +1,102 @@
+
+.login-wrapper1 {
+  display: flex;
+  height: 100vh;
+  width: 50%;
+}
+
+
+.login-image-login1 {
+  flex: 2;
+  background-image: url('D:\sem 5\SDP final\SDP project\tutortracker\src\Components\Assets\tutor_login1.jpg'); 
+  background-size: cover;
+  height: 100vh;
+}
+
+.MuiPaper-root1 {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; 
+}
+
+.MuiBox-root-login1 {
+  width: 60%; 
+  background: white;
+  align-items:center;
+  padding: 40px;
+}
+
+.avatar1 {
+  background-color: teal;
+}
+
+.avatar1 .MuiSvgIcon-root1 {
+  color: white;
+}
+
+.login-title1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 20px;
+}
+
+.MuiTextField-root1 {
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.MuiButton-root1 {
+  width: 100%;
+  height: 72px;
+  color: white;
+  background: teal;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-link1 {
+  color: grey;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.login-link1 span {
+  color: teal;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.login-agree-text1 {
+  color: grey;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.MuiFormControlLabel-root1 {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.MuiCheckbox-root1 {
+  height: 30px;
+  width: 30px;
+}
+
+.error-message1 {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.invalid1 {
+  border-color: red;
+}

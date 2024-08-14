@@ -1,0 +1,64 @@
+.confirmation-page {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 20px;
+  background-color: white; 
+}
+
+.left-image {
+  width: 750px; 
+  height: 750px;
+  margin-left: 100px; 
+}
+
+.confirmation-container {
+  text-align: center;
+  margin-right: 150px;
+  padding: 100px;
+  margin-top: 150px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px; 
+}
+
+.image-element {
+  width: 150px; 
+  height: auto;
+}
+
+.confirmation-text {
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.query-text {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.help-section {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.help-button {
+  display: inline-block;
+  padding: 10px 50px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745; 
+  border-radius: 5px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 28px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745; 
+  border-radius: 5px;
+}

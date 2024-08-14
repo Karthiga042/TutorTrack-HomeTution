@@ -1,0 +1,71 @@
+.card {
+    flex: 1;
+    min-width: 0; 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: calc(40% - 5px); 
+    height: 700px; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 80%;
+    height: 70%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-image {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .ask-now-button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: teal;
+    margin-left: 27%;
+    width: 40%;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, text-decoration 0.3s;
+  }
+  
+  .ask-now-button:hover {
+    background-color:rgb(14, 84, 84);
+    color: white;
+    border-color: teal;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; 
+    }
+  }
+  

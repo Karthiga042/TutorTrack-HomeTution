@@ -1,0 +1,115 @@
+/* Container for the entire Contact Us page */
+.contact-container {
+    background: url('D:\sem 5\SDP final\SDP project\tutortracker\src\Components\Assets\reqtutor1blur.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .contact-form-heading {
+    font-family: Poppins, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-form-field {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form-field input, 
+  .contact-form-field select, 
+  .contact-form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form-field textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .contact-form-field select {
+    cursor: pointer;
+  }
+  
+  .contact-form-button {
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .contact-form-button:hover {
+    background-color: darkcyan;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+  }
+  
+  .popup-message p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .popup-message button {
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .popup-message button:hover {
+    background-color: darkcyan;
+  }
+  

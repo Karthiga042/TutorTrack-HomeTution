@@ -1,0 +1,45 @@
+.course-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-image-container {
+  width: 100%;
+  height: 400px; 
+  overflow: hidden;
+}
+
+.course-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.course-name {
+  font-size: 1.5rem;
+  color: teal;
+  margin: 0 0 10px 0;
+}
+
+.course-description {
+  color: #555;
+  margin: 0;
+}

@@ -1,0 +1,88 @@
+.request-tutor-management-container {
+  display: flex;
+  align-items: stretch; 
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.image-container-1 {
+  flex: 1; 
+  background: url('../Assets/tutor_login.jpg') no-repeat center center;
+  background-size: cover; 
+  height: 100vh; 
+}
+
+.form-container-1 {
+  flex: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 25px;
+  margin-left: 20px;
+}
+
+.header-box-1 {
+  width: 100%;
+}
+
+h1 {
+  font-size: 46px;
+  color: #009688;
+}
+
+p {
+  font-size: 20px;
+}
+
+.signup-link-1 {
+  margin-bottom: 20px;
+}
+
+.signup-link-1 a {
+  color: #009688;
+  text-decoration: none;
+}
+
+.signup-link-1 a:hover {
+  text-decoration: underline;
+}
+
+.tuition-place-box-1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tuition-place-header-1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.MuiFormControlLabel-label-1 {
+  font-size: 20px;
+}
+
+.login-link-1 {
+  margin-top: 20px;
+}
+
+.login-link-1 a {
+  color: #009688;
+  text-decoration: none;
+}
+
+.login-link-1 a:hover {
+  text-decoration: underline;
+}
+
+.navigation-links-1
+{
+  width: 25%;
+}
